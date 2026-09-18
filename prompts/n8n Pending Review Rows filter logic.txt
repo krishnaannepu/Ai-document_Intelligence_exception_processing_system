@@ -1,0 +1,14 @@
+Read rows from Google Sheets where:
+
+Final Status = Pending Review
+AND
+Notification Sent = No
+
+
+
+
+
+
+Purpose:
+
+This finds only invoices that need human review and have not yet received an email notification.

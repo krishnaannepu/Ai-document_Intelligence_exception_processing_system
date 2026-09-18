@@ -1,0 +1,34 @@
+Use these values in the Google Sheets Append Row node.
+
+Document ID:
+="DOC-"&TEXT(ROW()-1,"0000")
+
+Supplier Name:
+{{ $json.supplier_name }}
+
+Invoice Number:
+{{ $json.invoice_number }}
+
+Invoice Date:
+{{ $json.invoice_date }}
+
+PO Number:
+{{ $json.po_number }}
+
+Subtotal:
+{{ $json.subtotal }}
+
+VAT / Tax:
+{{ $json.vat_tax }}
+
+Total Amount:
+{{ $json.total_amount }}
+
+Processed Date:
+{{ $now }}
+
+Notification Sent:
+No
+
+Original File Name:
+{{ $json.original_file_name }}

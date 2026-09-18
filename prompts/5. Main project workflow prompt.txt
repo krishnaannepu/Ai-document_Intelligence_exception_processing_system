@@ -1,0 +1,29 @@
+Build an end-to-end AI document intelligence workflow for supplier invoice exception processing.
+
+The workflow should be:
+
+Lovable uploads invoice
+↓
+Google Drive stores invoice file
+↓
+n8n detects new file
+↓
+n8n downloads file
+↓
+Gemini AI extracts invoice fields
+↓
+JavaScript node cleans Gemini JSON output
+↓
+n8n appends structured data into Google Sheets
+↓
+Google Sheets applies validation formulas
+↓
+Invoice is classified as Approved or Needs Review
+↓
+Lovable dashboard reads live Google Sheets data
+↓
+n8n sends Gmail notification for Pending Review invoices
+↓
+n8n updates Notification Sent = Yes
+↓
+Finance admin reviews exceptions in Lovable

@@ -1,0 +1,15 @@
+Create an Upload Invoice page for the AI Document Intelligence & Exception Processing System.
+
+The page should allow a finance admin to upload supplier invoice files.
+
+Requirements:
+- Page title: Upload Invoice
+- Short description explaining that uploaded invoices will be processed by the AI workflow
+- File upload component supporting PDF/image invoice files
+- Upload button
+- Success message after upload
+- Show uploaded file name
+- Save uploaded files to Google Drive folder:
+  AI_Document_Exception_Processing_System / 06_uploaded_invoices
+
+The page should look professional and simple. It should be clear that this is the starting point of the invoice processing workflow.

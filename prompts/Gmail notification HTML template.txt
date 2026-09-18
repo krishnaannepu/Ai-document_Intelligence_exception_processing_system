@@ -1,0 +1,47 @@
+<p>Hello Finance Admin,</p>
+
+<p>A supplier invoice requires review.</p>
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse;">
+  <tr>
+    <td><strong>Document ID</strong></td>
+    <td>{{$json["Document ID"]}}</td>
+  </tr>
+  <tr>
+    <td><strong>Supplier Name</strong></td>
+    <td>{{$json["Supplier Name"]}}</td>
+  </tr>
+  <tr>
+    <td><strong>Invoice Number</strong></td>
+    <td>{{$json["Invoice Number"]}}</td>
+  </tr>
+  <tr>
+    <td><strong>Invoice Date</strong></td>
+    <td>{{$json["Invoice Date"]}}</td>
+  </tr>
+  <tr>
+    <td><strong>Total Amount</strong></td>
+    <td>£{{$json["Total Amount"]}}</td>
+  </tr>
+  <tr>
+    <td><strong>Final Status</strong></td>
+    <td>{{$json["Final Status"]}}</td>
+  </tr>
+  <tr>
+    <td><strong>Exception Reason</strong></td>
+    <td>{{$json["Exception Reason"]}}</td>
+  </tr>
+  <tr>
+    <td><strong>Review Summary</strong></td>
+    <td>{{$json["Review Summary"]}}</td>
+  </tr>
+  <tr>
+    <td><strong>Original File</strong></td>
+    <td>{{$json["Original File Name"]}}</td>
+  </tr>
+</table>
+
+<p>Please open the AI Document Intelligence dashboard and review this invoice.</p>
+
+<p>Regards,<br>
+AI Document Intelligence & Exception Processing System</p>

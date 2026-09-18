@@ -1,0 +1,35 @@
+Create a review modal for invoices in the AI Document Intelligence & Exception Processing System.
+
+When the finance admin clicks the Review button in the Needs Review Work Queue, open a modal.
+
+The modal should display invoice details in read-only format:
+- Document ID
+- Supplier Name
+- Invoice Number
+- Invoice Date
+- Subtotal
+- VAT / Tax
+- Total Amount
+- Status
+- Exception Reason
+- Review Summary
+- Final Status
+- Original File Name
+
+Editable fields:
+- PO Number
+- Reviewed By
+- Review Notes
+- Reviewed Date
+
+The Original File Name should be clickable so the finance admin can open the uploaded invoice file.
+
+When the user clicks Save Review, update the same row in Google Sheets.
+
+Do not allow the user to manually edit formula-driven fields:
+- Status
+- Exception Reason
+- Review Summary
+- Final Status
+
+These should remain controlled by Google Sheets formulas.

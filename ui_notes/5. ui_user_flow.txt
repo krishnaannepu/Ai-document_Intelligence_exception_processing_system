@@ -1,0 +1,12 @@
+UI User Flow
+
+1. Finance admin opens the Lovable website.
+2. User uploads an invoice on the Upload Invoice page.
+3. Uploaded file is saved to Google Drive.
+4. n8n processes the invoice in the background.
+5. Google Sheets is updated.
+6. Dashboard shows the invoice status.
+7. If invoice needs review, it appears in the Needs Review Work Queue.
+8. Finance admin clicks Review.
+9. Admin adds PO number, reviewer name, review notes, and reviewed date.
+10. Review information is saved back to Google Sheets.

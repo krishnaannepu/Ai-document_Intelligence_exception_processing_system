@@ -1,0 +1,28 @@
+//16. n8n update Notification Sent prompt/logic//
+
+//prompt:start//
+
+
+"
+After Gmail sends the notification, update the same Google Sheets row.
+
+Match row using:
+Document ID
+
+Update:
+Notification Sent = Yes
+
+Do not overwrite invoice fields, formula fields, review fields, or dashboard fields.
+Only update Notification Sent."
+
+
+//prompt end//
+
+
+//Expression for matching Document ID://
+
+{{ $('Pending Review Rows').item.json["Document ID"] }}
+
+//Alternative expression if item pairing issue happens://
+
+{{ $items("Pending Review Rows")[$itemIndex].json["Document ID"] }}

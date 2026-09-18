@@ -1,0 +1,14 @@
+Create a professional finance operations web application called “AI Document Intelligence & Exception Processing System”.
+
+The application should help finance/admin users manage supplier invoice exception processing.
+
+Build a clean dashboard-style interface with:
+- Upload Invoice page
+- Dashboard page
+- Invoice review work queue
+- Approved invoices section
+- Needs Review invoices section
+- Recently reviewed invoices section
+- Review modal for finance admin
+
+The design should look like a modern B2B SaaS product for finance operations.

@@ -1,0 +1,12 @@
+Upload Page Requirements
+
+The upload page allows finance admin users to upload supplier invoice files.
+
+Requirements:
+- Upload PDF/image invoice files
+- Show uploaded file name
+- Show success message after upload
+- Store uploaded files in Google Drive folder:
+  AI_Document_Exception_Processing_System / 06_uploaded_invoices
+
+This page is the starting point of the invoice processing workflow.

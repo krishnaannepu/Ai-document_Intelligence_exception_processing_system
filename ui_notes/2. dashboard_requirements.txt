@@ -1,0 +1,19 @@
+Dashboard Requirements
+
+The dashboard should display:
+- Total Invoices
+- Approved Invoices
+- Needs Review
+- Pending Final Review
+- Value Processed
+- Value Requiring Review
+- Approved Value
+
+Dashboard sections:
+- Exception Reason Breakdown
+- Invoice Status Distribution
+- Needs Review Work Queue
+- Recently Reviewed Invoices
+- Approved Invoices
+
+The dashboard reads live data from Google Sheets.

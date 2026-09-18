@@ -1,0 +1,14 @@
+Final UI Notes
+
+Lovable is used as the frontend and presentation layer.
+
+It provides:
+- Upload interface
+- Dashboard view
+- Work queue
+- Review modal
+- Link to original invoice file
+
+Google Sheets remains the source of truth for invoice data and validation results.
+
+Lovable does not control validation logic. It displays the results calculated by Google Sheets.

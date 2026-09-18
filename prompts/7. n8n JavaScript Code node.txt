@@ -1,0 +1,28 @@
+const rawText = $json.content.parts[0].text;
+
+// Clean possible formatting just in case
+const cleaned = rawText
+  .replace(/```json/g, "")
+  .replace(/```/g, "")
+  .trim();
+
+const extracted = JSON.parse(cleaned);
+
+// Get file name from the Download file node binary data
+const fileName =
+  $items("Download file")[0].binary.data.fileName || extracted.original_file_name || "";
+
+return [
+  {
+    json: {
+      supplier_name: extracted.supplier_name || "",
+      invoice_number: extracted.invoice_number || "",
+      invoice_date: extracted.invoice_date || "",
+      po_number: extracted.po_number || "",
+      subtotal: extracted.subtotal || "",
+      vat_tax: extracted.vat_tax || "",
+      total_amount: extracted.total_amount || "",
+      original_file_name: fileName
+    }
+  }
+];

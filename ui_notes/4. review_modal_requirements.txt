@@ -1,0 +1,29 @@
+Review Modal Requirements
+
+The review modal opens when the finance admin clicks the Review button.
+
+Read-only fields:
+- Document ID
+- Supplier Name
+- Invoice Number
+- Invoice Date
+- Subtotal
+- VAT / Tax
+- Total Amount
+- Status
+- Exception Reason
+- Review Summary
+- Final Status
+- Original File Name
+
+Editable fields:
+- PO Number
+- Reviewed By
+- Review Notes
+- Reviewed Date
+
+Formula-driven fields should not be manually edited:
+- Status
+- Exception Reason
+- Review Summary
+- Final Status
